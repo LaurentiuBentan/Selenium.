@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="my account feature" skipped="0" tests="3" time="80.35" timestamp="2021-06-08 11:58:39"><testcase name="log in, in my account"/><testcase name="open my account and verify error message for invalid credentials"><error message="The following error occurred: Expected condition failed: waiting for MyAccountPage.first_name_input to be displayed (tried for 60 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'&#10;System info: host: 'HP-COMPAQ-8300M', ip: '192.168.0.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'&#10;System info: host: 'HP-COMPAQ-8300M', ip: '192.168.0.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">The following error occurred: Expected condition failed: waiting for MyAccountPage.first_name_input to be displayed (tried for 60 second(s) with 100 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'HP-COMPAQ-8300M', ip: '192.168.0.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'HP-COMPAQ-8300M', ip: '192.168.0.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown</error><system-err>The following error occurred: Expected condition failed: waiting for MyAccountPage.first_name_input to be displayed (tried for 60 second(s) with 100 milliseconds interval)
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'HP-COMPAQ-8300M', ip: '192.168.0.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.10.0', revision: '176b4a9', time: '2018-03-02T19:03:16.397Z'
+System info: host: 'HP-COMPAQ-8300M', ip: '192.168.0.116', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: driver.version: unknown&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+web.steps.MyAccountSteps.complete_first_name(MyAccountSteps.java:19)&#13;
+web.steps.MyAccountStepDefinition.invalid_first_name(MyAccountStepDefinition.java:21)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+</system-err></testcase></testsuite>

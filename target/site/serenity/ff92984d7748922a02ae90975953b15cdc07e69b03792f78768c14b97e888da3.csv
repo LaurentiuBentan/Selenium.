@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"sign in feature","verify message for invalid email","SUCCESS","2021-06-05T20:31:51.9620078+03:00[Europe/Athens]","0.0","27.75"
+"sign in feature","verify sign in feature","SUCCESS","2021-06-05T20:32:19.7156517+03:00[Europe/Athens]","0.0","7.76"

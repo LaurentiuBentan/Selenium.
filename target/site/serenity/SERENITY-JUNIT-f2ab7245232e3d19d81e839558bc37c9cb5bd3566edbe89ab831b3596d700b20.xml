@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="sign in feature" skipped="0" tests="3" time="28.1" timestamp="2021-06-08 11:41:15"><testcase name="verify message for invalid email"/><testcase name="verify sign in feature"/></testsuite>

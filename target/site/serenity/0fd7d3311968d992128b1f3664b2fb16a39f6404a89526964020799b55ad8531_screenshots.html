@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Serenity + JUnit Automation Framework</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="c0a76cedd7c73b18662fd7361b862b9a861fbedb9f7b165379e057f537f92b90.html">My Account Feature</a></span>
+                > <span class="truncate-60"><a
+                    href="0fd7d3311968d992128b1f3664b2fb16a39f6404a89526964020799b55ad8531.html">verify valid account information and if they are updated </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-06-2021 16:39</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">My Account Feature </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="7c072acb935b1002f3355ac194fcd536d1326d077c431aaf6b04ed7e3d0059ba.html">My Account Capability
+                                    (feature)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="94c64dda365f6df95fc0a6d1a01a865f08cebda7d4d87150a210a2c04897f10a.html">Laurentiu
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">verify valid account information and if they are updated
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="33a14455658f2ff31a2f47380aeb3b172dcfc4bf6b8d2ad8af75a5b2419ce866.png" title="Given sign in: I am a user on sign in page" width="1680"/>
+                <img src="f868b491e7e852816b27e661830fe7bd8f4f469893608d0c0f7db03957bb5332.png" title="Open sign in page" width="1680"/>
+                <img src="05fbcbe40e221d38ee11c8e88da7e657dfdd2d702cd680e39d8547ba9fa351ca.png" title="When sign in: I log in with my valid credentials" width="1680"/>
+                <img src="87669c0f853b29a5c3dff93e7207546c9305f34ba108184b88a5e0b34d2f1982.png" title="Complete email input: itfactory.ro@gmail.com" width="1680"/>
+                <img src="14b1b3ba6ac6e2997d55baf24132ff5c1e3121d620de3680aa7b05a2ad2681f7.png" title="Complete pass input: Start123!" width="1680"/>
+                <img src="87f5ed36c898cc0d29cb7c9eba1b418fb24f45e2201d0876d350201fde09b8fa.png" title="Click log in button" width="1680"/>
+                <img src="50c15bf901383d88f34e80cf6960f1036f6086918e920e3e4dc3c424c7d4a454.png" title="When my account: i get in my account" width="1680"/>
+                <img src="feb7f3c75b1df989c510e845fefe40f765e34fab759a469b50f92c470f486f7f.png" title="When my account: i try with valid information" width="1680"/>
+                <img src="3ea02384105b955ce4e24ab6e45118aeb81ba16999cf8932ad3c05d240b11ba3.png" title="Complete first name: Laurentiu" width="1680"/>
+                <img src="019a78bdcae4ffa97b81fe8ab2ec83ae8892ca431fea779420708f0dbf72c7b9.png" title="Complete last name: Bentan" width="1680"/>
+                <img src="bf178645d520adacce685f45a1628d415a83cc7387ef2751355eff0cc9a0cfd8.png" title="Complete phone: 0729467703" width="1680"/>
+                <img src="d45ec18cb7f0579ebd4f675c777d4cf0d6029f677819a0ca0b331ae8cd19a188.png" title="When my account: i close my account page" width="1680"/>
+                <img src="2c8e001340b0521c4827424126181a0ad6fab2d945f63cbd472b53d46adc6e4a.png" title="Exit my account" width="1680"/>
+                <img src="feb7f3c75b1df989c510e845fefe40f765e34fab759a469b50f92c470f486f7f.png" title="Then my account: i open again my account page and verify if the credentials are updated" width="1680"/>
+                <img src="8a1b903cfaa4f33fdb064d2d87cd256215176acf95010eaa5d4da0d3f7bfc7a2.png" title="Open my account" width="1680"/>
+                <img src="feb7f3c75b1df989c510e845fefe40f765e34fab759a469b50f92c470f486f7f.png" title="Verify first name: Laurentiu" width="1680"/>
+                <img src="feb7f3c75b1df989c510e845fefe40f765e34fab759a469b50f92c470f486f7f.png" title="Verify last name: Bentan" width="1680"/>
+                <img src="feb7f3c75b1df989c510e845fefe40f765e34fab759a469b50f92c470f486f7f.png" title="Verify phone number: 0729467703: <span class='success-color'>SUCCESS</span>" width="1680"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>

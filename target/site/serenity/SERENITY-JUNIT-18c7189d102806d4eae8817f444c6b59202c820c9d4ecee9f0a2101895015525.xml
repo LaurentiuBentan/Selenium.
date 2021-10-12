@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="my account feature" skipped="0" tests="3" time="47.56" timestamp="2021-06-10 04:38:51"><testcase name="open my account and verify error message for invalid credentials"/><testcase name="verify valid account information and if they are updated"/></testsuite>

@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Serenity + JUnit Automation Framework</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="c0a76cedd7c73b18662fd7361b862b9a861fbedb9f7b165379e057f537f92b90.html">My Account Feature</a></span>
+                > <span class="truncate-60"><a
+                    href="18c7189d102806d4eae8817f444c6b59202c820c9d4ecee9f0a2101895015525.html">open my account and verify error message for invalid credentials </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-06-2021 16:38</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">My Account Feature </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="7c072acb935b1002f3355ac194fcd536d1326d077c431aaf6b04ed7e3d0059ba.html">My Account Capability
+                                    (feature)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="94c64dda365f6df95fc0a6d1a01a865f08cebda7d4d87150a210a2c04897f10a.html">Laurentiu
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">open my account and verify error message for invalid credentials
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">When my account: i provide first name &lt;first name&gt;<br>When my account: i provide last name &lt;last name&gt;<br>When my account: i provide phone number &lt;phone number&gt;<br>Then my account: i verify all invalid messages</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="ca2ba714291ebb1a156d0c275bad62cfaf82674706b44f9707e9277d22ff5555.png" title="open my account and verify error message for invalid credentials #1: {first name=!@#$., last name=%^$#12, phone number=abcd@}" width="1680"/>
+                <img src="602c35e23ae29cd0307dc110d96a101b5953129058a1d85c3a69ae7f8faa3fda.png" title="Given sign in: I am a user on sign in page" width="1680"/>
+                <img src="33a14455658f2ff31a2f47380aeb3b172dcfc4bf6b8d2ad8af75a5b2419ce866.png" title="Open sign in page" width="1680"/>
+                <img src="7bf140949ddccf2e79e7992d0b19acc87f297c2a8453618eba64cf2c3e4e1234.png" title="When sign in: I log in with my valid credentials" width="1680"/>
+                <img src="e5cdcdc0509cc4aaf58edcd4a0094d3f228d41bc9e932b118c5204a4dc0a36d8.png" title="Complete email input: itfactory.ro@gmail.com" width="1680"/>
+                <img src="e27cf23567768c65a9682a8a9e445248504a4034b57130efb032c61decd7b397.png" title="Complete pass input: Start123!" width="1680"/>
+                <img src="0cf31fb619f00b325953cb802f4f611092235c104ed70a8f343be6b6a3f9487b.png" title="Click log in button" width="1680"/>
+                <img src="1c51b263e439c4404d03e1cc76f0e48362c7e316ea5ed4ce03b211a348f99244.png" title="When my account: i get in my account" width="1680"/>
+                <img src="9c92425fd5b4909efb83951322f258e54f221f6ceda6f3c269575027083eb51b.png" title="When my account: i provide first name !@#$." width="1680"/>
+                <img src="9c92425fd5b4909efb83951322f258e54f221f6ceda6f3c269575027083eb51b.png" title="Complete first name: !@#$." width="1680"/>
+                <img src="ade88c69914ff6c8ac9e07012030f9f35458bcfe1ffde8ae0cb75aa2e41d769e.png" title="When my account: i provide last name %^$#12" width="1680"/>
+                <img src="ade88c69914ff6c8ac9e07012030f9f35458bcfe1ffde8ae0cb75aa2e41d769e.png" title="Complete last name: %^$#12" width="1680"/>
+                <img src="7611c185582b4a2077268439e63bdf1a738ced5bb5b4cd0b951fcd585f42237b.png" title="When my account: i provide phone number abcd@" width="1680"/>
+                <img src="7611c185582b4a2077268439e63bdf1a738ced5bb5b4cd0b951fcd585f42237b.png" title="Complete phone: abcd@" width="1680"/>
+                <img src="ca2ba714291ebb1a156d0c275bad62cfaf82674706b44f9707e9277d22ff5555.png" title="Then my account: i verify all invalid messages" width="1680"/>
+                <img src="7611c185582b4a2077268439e63bdf1a738ced5bb5b4cd0b951fcd585f42237b.png" title="Verify invalid first name message" width="1680"/>
+                <img src="b9d0e9a060ce6e693c2402892d2357d8fc213a66572f4e7888ec9e98c34033e7.png" title="Verify invalid last name message" width="1680"/>
+                <img src="b9d0e9a060ce6e693c2402892d2357d8fc213a66572f4e7888ec9e98c34033e7.png" title="Verify invalid phone number message" width="1680"/>
+                <img src="8aa233db1b75a5923595646d45a44664b3c39a0c1a9a38a3fd04980e9beac617.png" title="open my account and verify error message for invalid credentials #2: {first name=Lau!, last name=bentan#$, phone number=0751233213!}" width="1680"/>
+                <img src="33a14455658f2ff31a2f47380aeb3b172dcfc4bf6b8d2ad8af75a5b2419ce866.png" title="Given sign in: I am a user on sign in page" width="1680"/>
+                <img src="3aeb3c3ce3216acc50fe98afb4f5b2b7fd9b0287855a6c8d7ba5bf6d588dd1e8.png" title="Open sign in page" width="1680"/>
+                <img src="49f9a73cb5adbef85bdbc1a46ccf7428edd4886f83b7be39a8266c6b94f312a2.png" title="When sign in: I log in with my valid credentials" width="1680"/>
+                <img src="e5cdcdc0509cc4aaf58edcd4a0094d3f228d41bc9e932b118c5204a4dc0a36d8.png" title="Complete email input: itfactory.ro@gmail.com" width="1680"/>
+                <img src="1757750d29aaadaaff27796abfa451d7b0dcb19c0e805b671d56ba36e2d2dac3.png" title="Complete pass input: Start123!" width="1680"/>
+                <img src="99a7c1bfca7f7311e6680e709c77ca13caf0cff00cec2c4011e4ba00e722800b.png" title="Click log in button" width="1680"/>
+                <img src="2a5f96d719ab455eb2ead5cfc4e663e94a421422961410124d152a0c5d77abde.png" title="When my account: i get in my account" width="1680"/>
+                <img src="a80db9953ef716b367b921cb7dce6def8e95627985d33151ee66567f3d5a9cbb.png" title="When my account: i provide first name Lau!" width="1680"/>
+                <img src="15d3c01de4157081a6f6c2f0668d27728b461fa2899bfa66b3371a7bc27ec49c.png" title="Complete first name: Lau!" width="1680"/>
+                <img src="b2bedacb04b7dad04b42f99bc1bc2725ebf487c56edab8f73200eb0b0a70e1b5.png" title="When my account: i provide last name bentan#$" width="1680"/>
+                <img src="e067e8bc830e702e0c4104c39f9207cd196cfd1e0cdcda0693def10753bb1826.png" title="Complete last name: bentan#$" width="1680"/>
+                <img src="8aa233db1b75a5923595646d45a44664b3c39a0c1a9a38a3fd04980e9beac617.png" title="When my account: i provide phone number 0751233213!" width="1680"/>
+                <img src="f2a3d2a4863ebfdf4eecd47a35d3e4777d99b87d755c528fcdc71c32850a92af.png" title="Complete phone: 0751233213!" width="1680"/>
+                <img src="db148c7d27477e8c304d60af1d798ef07bf312f994d9dbe8bea41304651c8b68.png" title="Then my account: i verify all invalid messages" width="1680"/>
+                <img src="8aa233db1b75a5923595646d45a44664b3c39a0c1a9a38a3fd04980e9beac617.png" title="Verify invalid first name message" width="1680"/>
+                <img src="db148c7d27477e8c304d60af1d798ef07bf312f994d9dbe8bea41304651c8b68.png" title="Verify invalid last name message" width="1680"/>
+                <img src="db148c7d27477e8c304d60af1d798ef07bf312f994d9dbe8bea41304651c8b68.png" title="Verify invalid phone number message: <span class='success-color'>SUCCESS</span>" width="1680"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>
